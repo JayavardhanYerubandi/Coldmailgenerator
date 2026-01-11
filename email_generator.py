@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 llm=ChatGroq(
     model_name="llama3-8b-8192",
-    api_key="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",
+    api_key="PLACEYOURAPIKEYHERE",
 )
 
 loader=WebBaseLoader("https://apna.co/job/kolkata-calcutta/territory-sales-officer-539812014")
@@ -75,3 +75,4 @@ Do not provide a preamble.
 chain_email=prompt_email|llm
 res=chain_email.invoke({"job_description": str(job), "link_list": links})
 print(res.content)
+
