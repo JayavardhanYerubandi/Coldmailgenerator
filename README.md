@@ -78,7 +78,7 @@ cold_email_generator/
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/cold-email-generator.git
+git clone https://github.com/JayavardhanYerubandi/Coldmailgenerator.git
 cd cold-email-generator
 
 2️⃣ Create a Virtual Environment (Optional but Recommended)
